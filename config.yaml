@@ -1,0 +1,16 @@
+NETWORK_W        = 608
+NETWORK_H        = 608
+NB_BOX           = 3
+NB_CLASS         = len(labels)
+OBJ_THRESHOLD    = 0.3
+NMS_THRESHOLD    = 0.3
+grids = [(76,76), (38,38), (19,19)]
+anchors = [ [12, 16, 19, 36, 40, 28],[36, 75, 76, 55, 72, 146],[142, 110, 192, 243, 459, 401]]
+scales_x_y = [1.2, 1.1, 1.05]
+NO_OBJECT_SCALE  = 1.0
+OBJECT_SCALE     = 5.0
+COORD_SCALE      = 1.0
+CLASS_SCALE      = 1.0
+
+BATCH_SIZE       = 2
+TRUE_BOX_BUFFER  = 50
